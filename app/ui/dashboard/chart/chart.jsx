@@ -67,7 +67,7 @@ const Chart = () => {
         >
           <XAxis dataKey="name" />
           <YAxis />
-          <Tooltip contentStyle={{ background: "#151c2c", border: "none" }} />
+          <Tooltip contentStyle={{ background: "var(--primary)",  border: "none" }} />
           <Legend />
           <Line
             type="monotone"
@@ -78,7 +78,7 @@ const Chart = () => {
           <Line
             type="monotone"
             dataKey="click"
-            stroke="#82ca9d"
+            stroke="#fff"
             strokeDasharray="3 4 5 2"
           />
         </LineChart>

@@ -3,11 +3,11 @@
     top: 40px;
     height: calc(100vh - 40px);
     overflow-y: auto;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .container::-webkit-scrollbar {
-    width: 10px; /* Adjust the width as needed */
+    width: 2.5px; /* Adjust the width as needed */
   }
   
   .container::-webkit-scrollbar-track {
@@ -15,7 +15,7 @@
   }
   
   .container::-webkit-scrollbar-thumb {
-    background-color: #333; /* Set the color of the scrollbar thumb */
+    background-color: var(--muted); /* Set the color of the scrollbar thumb */
     border-radius: 5px; /* Add some border-radius for style */
   }
 

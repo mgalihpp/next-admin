@@ -4,7 +4,7 @@
 
 .menu {
   flex: 1;
-  background: var(--card);
+  background: var(--popover);
   padding: 20px;
 }
 

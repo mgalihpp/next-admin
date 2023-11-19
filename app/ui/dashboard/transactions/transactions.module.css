@@ -1,13 +1,13 @@
 .container {
-  background-color: var(--bgSoft);
+  background-color: var(--popover);
   padding: 20px;
   border-radius: 10px;
 }
 
 .title {
   margin-bottom: 20px;
-  font-weight: 200;
-  color: var(--textSoft);
+  font-weight: 300;
+  color: var(--foreground);
 }
 
 .table {
@@ -16,12 +16,14 @@
 
 .table td {
   padding: 10px;
+  color: var(--foreground);
 }
 
 .user {
   display: flex;
   gap: 10px;
   align-items: center;
+  text-transform: capitalize;
 }
 
 .userImage {
@@ -34,6 +36,7 @@
   padding: 5px;
   font-size: 14px;
   color: white;
+  text-transform: capitalize;
 }
 
 .pending {
