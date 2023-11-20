@@ -1,0 +1,62 @@
+.container {
+    position: fixed;
+  }
+  
+  .item {
+    background: linear-gradient(to top, rgba(0, 255, 0, 0.25), rgba(51, 51, 51, 0) );
+    padding: 20px 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .bgContainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .bg {
+    object-fit: contain;
+    opacity: 0.2;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .notification {
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    color: var(--foreground);
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .desc {
+    color: var(--foreground);
+    font-size: 14px;
+  }
+  
+  .button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: var(--primary-hover);
+  }
