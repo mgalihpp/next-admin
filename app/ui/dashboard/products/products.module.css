@@ -1,1 +1,66 @@
-.container{}
+.container {
+    background-color: var(--popover);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: var(--primary);
+    color: var(--foreground);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table td {
+    padding: 10px;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .productImage {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--foreground);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view {
+    background-color: teal;
+  }
+  
+  .delete {
+    background-color: crimson;
+  }
+  

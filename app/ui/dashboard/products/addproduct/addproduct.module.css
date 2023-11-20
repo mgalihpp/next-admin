@@ -1,0 +1,49 @@
+.container {
+    background-color: var(--popover);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form input, .form textarea, .form select {
+    padding: 30px;
+    background-color: transparent;
+    color: var(--foreground);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid var(--ring);
+    
+    text-transform: capitalize;
+}
+
+.form input, .form select {
+    width: 45%;
+}
+
+.form textarea {
+    width: 100%;
+}
+
+.form select {
+    background-color: var(--popover);
+}
+
+.form button {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--primary);
+    color: var(--foreground);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form button:hover {
+    background-color: var(--primary-hover);
+}
