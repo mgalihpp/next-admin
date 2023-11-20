@@ -38,3 +38,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+body::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background); /* Set the background color of the track */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--accent); /* Set the color of the scrollbar thumb */
+  border-radius: 5px; /* Add some border-radius for style */
+}
